@@ -1,6 +1,7 @@
 package linbook
 
 import (
+	"linbook/email"
 	"net/smtp"
 
 	"github.com/go-martini/martini"
@@ -17,6 +18,7 @@ func main() {
 }
 
 func sendMail() {
+	//test
 	e := email.NewEmail()
 	e.From = "Jordan Wright <alexlin@yeah.net>"
 	e.To = []string{"linhuifeng@minday.com"}
