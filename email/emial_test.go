@@ -1,4 +1,4 @@
-package linbook
+package email
 
 import (
 	"testing"
