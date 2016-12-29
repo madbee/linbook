@@ -1,4 +1,4 @@
-package linbook
+package main
 
 import (
 	"linbook/email"
