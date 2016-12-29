@@ -13,13 +13,13 @@ func main() {
 	m.Get("/sendmail", func() {
 		sendMail()
 	})
-	m.RunOnAddr("80")
+	m.Run()
 
 }
 
 func sendMail() {
-	//test a
-	e := email.NewEmail()
+	//test aup
+	e := email.NewEmail() // email.NewEmail()
 	e.From = "Jordan Wright <alexlin@yeah.net>"
 	e.To = []string{"linhuifeng@minday.com"}
 	//e.Bcc = []string{"test_bcc@example.com"}
