@@ -1,7 +1,6 @@
-package main
+package linbook
 
 import (
-	"linbook/email"
 	"net/smtp"
 
 	"github.com/go-martini/martini"
