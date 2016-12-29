@@ -18,7 +18,7 @@ func main() {
 }
 
 func sendMail() {
-	//test
+	//test a
 	e := email.NewEmail()
 	e.From = "Jordan Wright <alexlin@yeah.net>"
 	e.To = []string{"linhuifeng@minday.com"}
